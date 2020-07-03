@@ -26,7 +26,7 @@ namespace Roulette.WebAPI.Controllers
             try
             {
                 if (!ModelState.IsValid)
-                    return StatusCode(500,"Model is not valid");
+                    return BadRequest("Model is not valid");
                 
                 var response = _rouletteService.CreateRoulette(request.name);
 
@@ -65,7 +65,7 @@ namespace Roulette.WebAPI.Controllers
             try
             {
                 if (!ModelState.IsValid)
-                    return StatusCode(500, "Model is not valid");
+                    return BadRequest("Model is not valid");
 
                 var jsonResponse = new
                 {
@@ -86,7 +86,7 @@ namespace Roulette.WebAPI.Controllers
         {
             try
             {
-                var response = _rouletteService.GetRoulettes();
+                var response = _rouletteService.GetBets();
 
                 return Ok(response);
             }
@@ -101,7 +101,7 @@ namespace Roulette.WebAPI.Controllers
         {
             try
             {
-                var response = _rouletteService.GetBets();
+                var response = _rouletteService.GetRoulettes();
 
                 return Ok(response);
             }

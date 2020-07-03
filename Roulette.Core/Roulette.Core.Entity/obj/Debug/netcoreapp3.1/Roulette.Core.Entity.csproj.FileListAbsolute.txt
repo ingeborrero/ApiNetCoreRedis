@@ -6,11 +6,3 @@ C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\R
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.Core\Roulette.Core.Entity\bin\Debug\netcoreapp3.1\Roulette.Core.Entity.pdb
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.dll
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.pdb
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\bin\Debug\netcoreapp3.1\Roulette.Core.Entity.deps.json
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\bin\Debug\netcoreapp3.1\Roulette.Core.Entity.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\bin\Debug\netcoreapp3.1\Roulette.Core.Entity.pdb
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.AssemblyInfoInputs.cache
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.AssemblyInfo.cs
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.pdb
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.csprojAssemblyReference.cache
