@@ -1,7 +1,8 @@
 # ApiNetCoreRedis
 Api with Net Core 3.1 and implementation with Redis(NOSQL DB)
 
-End Points
+
+Consume end points:
 
 1- Roulette/RegisterRoulette
 
@@ -33,4 +34,8 @@ End Points
 5-Roulette/GetRoulettes
 
 - Example GET request:
+<<<<<<< HEAD
 /Roulette/GetRoulettes
+=======
+/Roulette/GetRoulettes
+>>>>>>> 7ee64fe1bbfc8ea7632af140a479a3b943bdb5be
