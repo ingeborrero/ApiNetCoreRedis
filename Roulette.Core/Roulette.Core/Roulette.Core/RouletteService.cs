@@ -19,5 +19,10 @@ namespace Roulette.Core
         {
             return _rouletteRepository.CreateRoulette("ruleta", name);
         }
+
+        public string OpenRoulette(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7239,11 +7239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.WebAPI\\Roulette.WebAPI.csproj",
+      "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.WebAPI\\Roulette.WebAPI.csproj",
       "projectName": "Roulette.WebAPI",
-      "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.WebAPI\\Roulette.WebAPI.csproj",
+      "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.WebAPI\\Roulette.WebAPI.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.WebAPI\\obj\\",
+      "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7262,11 +7262,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj": {
-              "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj"
+            "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj": {
+              "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj"
             },
-            "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {
-              "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj"
+            "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {
+              "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj"
             }
           }
         }

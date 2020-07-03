@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {}
+    "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {}
   },
   "projects": {
-    "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {
+    "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj",
+        "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj",
         "projectName": "Roulette.Core",
-        "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj",
+        "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\obj\\",
+        "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core\\Roulette.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj"
+              "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj": {
+    "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj",
         "projectName": "Roulette.Infrastructure.Data",
-        "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj",
+        "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

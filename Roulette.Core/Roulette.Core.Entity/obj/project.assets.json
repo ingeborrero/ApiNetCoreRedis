@@ -4904,11 +4904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj",
+      "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj",
       "projectName": "Roulette.Core.Entity",
-      "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj",
+      "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core.Entity\\Roulette.Core.Entity.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core.Entity\\obj\\",
+      "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\APInetCore\\ApiNetCoreRedis\\Roulette.Core\\Roulette.Core.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
