@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\Roulette.Core.Entity\Roulette.Core.Entity.csproj" />
   </ItemGroup>
 
 </Project>

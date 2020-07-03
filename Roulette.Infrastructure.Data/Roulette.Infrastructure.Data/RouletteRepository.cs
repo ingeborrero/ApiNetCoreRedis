@@ -14,12 +14,17 @@ namespace Roulette.Infrastructure.Data
             _connectionMultiplexer = connectionMultiplexer;
         }
 
-        public int CreateRoulette(string key, string value)
+        public bool CreateRoulette(string key, string roulettes)
         {
-            //Aca iria a la BD
             var db = _connectionMultiplexer.GetDatabase();
-            db.StringSet(key, value);
-            return Int32.Parse(value);
+
+            return db.StringSet(key, roulettes);
+        }
+
+        public string GetKeysRedis(string key)
+        {
+            var db = _connectionMultiplexer.GetDatabase();
+            return db.StringGet(key);
         }
     }
 }

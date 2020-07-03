@@ -116,6 +116,7 @@ C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\R
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Roulette.Core.pdb
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.dll
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.pdb
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\obj\Debug\netcoreapp3.1\Roulette.WebAPI.csprojAssemblyReference.cache
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -131,10 +132,6 @@ C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.AutoHistory.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -151,7 +148,6 @@ C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -160,10 +156,8 @@ C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Threenine.Data.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -224,7 +218,6 @@ C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Roulette.Core.Entity.pdb
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Roulette.Core.pdb
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.pdb
-C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\obj\Debug\netcoreapp3.1\Roulette.WebAPI.csprojAssemblyReference.cache
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\Roulette.WebAPI.StaticWebAssets.Manifest.cache
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\Roulette.WebAPI.StaticWebAssets.xml
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.WebAPI\obj\Debug\netcoreapp3.1\Roulette.WebAPI.MvcApplicationPartsAssemblyInfo.cache

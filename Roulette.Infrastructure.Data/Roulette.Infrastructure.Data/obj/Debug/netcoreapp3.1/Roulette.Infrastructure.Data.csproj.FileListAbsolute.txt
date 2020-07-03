@@ -6,3 +6,10 @@ C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\R
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.pdb
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\obj\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.dll
 C:\JorgeBorrero\Personal\Masivian\Roulette.Core\Roulette.Core.Service\Roulette\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\obj\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.pdb
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.deps.json
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.dll
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\bin\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.pdb
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\obj\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\obj\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.AssemblyInfo.cs
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\obj\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.dll
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Infrastructure.Data\Roulette.Infrastructure.Data\obj\Debug\netcoreapp3.1\Roulette.Infrastructure.Data.pdb
