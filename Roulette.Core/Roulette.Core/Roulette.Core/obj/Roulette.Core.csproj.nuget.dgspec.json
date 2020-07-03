@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj",
+        "projectName": "Roulette.Core",
+        "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\Roulette.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Core\\Roulette.Core\\Roulette.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj",
+        "projectName": "Roulette.Infrastructure.Data",
+        "projectPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\JorgeBorrero\\Personal\\Masivian\\Roulette.Core\\Roulette.Core.Service\\Roulette\\Roulette.Infrastructure.Data\\Roulette.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20306.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
