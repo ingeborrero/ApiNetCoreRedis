@@ -96,13 +96,15 @@ namespace Roulette.Core
             }
         }
 
-        public List<Bet> GetBets()
+        public List<Bet> GetBets(Int64 id)
         {
             var sBets = _rouletteRepository.GetKeysRedis("Bets");
             if (sBets == null) return null;
             var objBets = JsonConvert.DeserializeObject<List<Bet>>(sBets);
 
-            return objBets;
+            var listBeatByRoulette = objBets.Where(x => x.Roulette.Id == id).ToList();
+
+            return listBeatByRoulette;
         }
 
         public List<RouletteEnt> GetRoulettes()

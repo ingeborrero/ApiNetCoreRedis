@@ -11,7 +11,7 @@ namespace Roulette.Core.Contract
         Int64 CreateRoulette(string name);
         bool OpenRoulette(Int64 id);
         bool CreateBet(BetRequest betRequest);
-        List<Bet> GetBets();
+        List<Bet> GetBets(Int64 id);
         List<RouletteEnt> GetRoulettes();
     }
 }

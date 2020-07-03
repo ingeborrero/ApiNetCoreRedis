@@ -86,7 +86,7 @@ namespace Roulette.WebAPI.Controllers
         {
             try
             {
-                var response = _rouletteService.GetBets();
+                var response = _rouletteService.GetBets(id);
 
                 return Ok(response);
             }
