@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Roulette.Core.Entity.Entities;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace Roulette.Core
 {
@@ -34,16 +35,30 @@ namespace Roulette.Core
                 Name = name, 
                 IsOpen = false
             };
-            
             objRoulettes.Add(rouletteEntNew);
             var response = _rouletteRepository.CreateRoulette("Roulettes", JsonConvert.SerializeObject(objRoulettes));
 
             return idNewRoulette;
         }
 
-        public string OpenRoulette(string id)
+        public bool OpenRoulette(Int64 id)
         {
-            throw new NotImplementedException();
+            var sRoulettes = _rouletteRepository.GetKeysRedis("Roulettes");
+            if (sRoulettes == null) return false;
+            var objRoulettes = JsonConvert.DeserializeObject<List<RouletteEnt>>(sRoulettes);
+            objRoulettes.Where(x => x.Id == id).ToList().ForEach(s => s.IsOpen = true);
+            var response = _rouletteRepository.SetKeysRedis("Roulettes", JsonConvert.SerializeObject(objRoulettes));
+
+            return true;
+        }
+
+        public List<RouletteEnt> GetRoulettes()
+        {
+            var sRoulettes = _rouletteRepository.GetKeysRedis("Roulettes");
+            if (sRoulettes == null) return null;
+            var objRoulettes = JsonConvert.DeserializeObject<List<RouletteEnt>>(sRoulettes);
+
+            return objRoulettes;
         }
     }
 }

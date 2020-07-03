@@ -26,5 +26,11 @@ namespace Roulette.Infrastructure.Data
             var db = _connectionMultiplexer.GetDatabase();
             return db.StringGet(key);
         }
+
+        public bool SetKeysRedis(string key, string value)
+        {
+            var db = _connectionMultiplexer.GetDatabase();
+            return db.StringSet(key,value);
+        }
     }
 }

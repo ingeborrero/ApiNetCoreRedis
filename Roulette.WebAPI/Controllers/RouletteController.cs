@@ -39,20 +39,25 @@ namespace Roulette.WebAPI.Controllers
         }
 
         [HttpGet("OpenRoulette")]
-        public IActionResult OpenRoulette([FromQuery] string id)
+        public IActionResult OpenRoulette([FromQuery] Int64 id)
         {
             try
             {
-                var response = _rouletteService.OpenRoulette(id);
+                var jsonResponse = new
+                {
+                    id,
+                    date = DateTime.UtcNow,
+                    result= _rouletteService.OpenRoulette(id),
 
-                return Ok(response);
+                };
+
+                return Ok(jsonResponse);
             }
             catch (Exception ex)
             {
                 return StatusCode(500, ex.Message);
             }
         }
-
 
         [HttpPost("CreateBet")]
         public IActionResult CreateBet([FromBody] RouletteRequest request)
@@ -63,6 +68,21 @@ namespace Roulette.WebAPI.Controllers
                     return StatusCode(500, "Model is not valid");
 
                 var response = _rouletteService.CreateRoulette(request.name);
+
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpGet("GetRoulettes")]
+        public IActionResult GetRoulettes()
+        {
+            try
+            {
+                var response = _rouletteService.GetRoulettes();
 
                 return Ok(response);
             }

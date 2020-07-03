@@ -4,5 +4,6 @@
     {
         bool CreateRoulette(string key, string roulettes);
         public string GetKeysRedis(string key);
+        bool SetKeysRedis(string key, string value);
     }
 }
