@@ -6,6 +6,7 @@ using System.Text;
 using Roulette.Core.Entity.Entities;
 using Newtonsoft.Json;
 using System.Linq;
+using Roulette.Core.Entity.DTO;
 
 namespace Roulette.Core
 {
@@ -43,13 +44,65 @@ namespace Roulette.Core
 
         public bool OpenRoulette(Int64 id)
         {
-            var sRoulettes = _rouletteRepository.GetKeysRedis("Roulettes");
-            if (sRoulettes == null) return false;
-            var objRoulettes = JsonConvert.DeserializeObject<List<RouletteEnt>>(sRoulettes);
-            objRoulettes.Where(x => x.Id == id).ToList().ForEach(s => s.IsOpen = true);
-            var response = _rouletteRepository.SetKeysRedis("Roulettes", JsonConvert.SerializeObject(objRoulettes));
+            try
+            {
+                var sRoulettes = _rouletteRepository.GetKeysRedis("Roulettes");
+                if (sRoulettes == null) return false;
+                var objRoulettes = JsonConvert.DeserializeObject<List<RouletteEnt>>(sRoulettes);
+                objRoulettes.Where(x => x.Id == id).ToList().ForEach(s => s.IsOpen = true);
+                var response = _rouletteRepository.SetKeysRedis("Roulettes", JsonConvert.SerializeObject(objRoulettes));
 
-            return true;
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+                return false;
+            }
+        }
+
+        public bool CreateBet(BetRequest betRequest)
+        {
+            try
+            {
+                var sBets = _rouletteRepository.GetKeysRedis("Bets");
+                List<Bet> objBets = new List<Bet>();
+                if (sBets != null)
+                {
+                    objBets = JsonConvert.DeserializeObject<List<Bet>>(sBets);
+                }
+
+                var sRoulettes = _rouletteRepository.GetKeysRedis("Roulettes");
+                if (sRoulettes == null) throw new Exception("The Roulette id not exists");
+                var objRoulettes = JsonConvert.DeserializeObject<List<RouletteEnt>>(sRoulettes);
+                var roulette = objRoulettes.Where(x => x.Id == betRequest.IdRoulette).FirstOrDefault();
+
+                var betNew = new Bet
+                {
+                    Number = betRequest.Number,
+                    Color=betRequest.Color,
+                    ValueBet = betRequest.ValueBet,
+                    Roulette = roulette
+                };
+                objBets.Add(betNew);
+                var response = _rouletteRepository.SetKeysRedis("Bets", JsonConvert.SerializeObject(objBets));
+
+                return response;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+                return false;
+            }
+        }
+
+        public List<Bet> GetBets()
+        {
+            var sBets = _rouletteRepository.GetKeysRedis("Bets");
+            if (sBets == null) return null;
+            var objBets = JsonConvert.DeserializeObject<List<Bet>>(sBets);
+
+            return objBets;
         }
 
         public List<RouletteEnt> GetRoulettes()
@@ -60,5 +113,6 @@ namespace Roulette.Core
 
             return objRoulettes;
         }
+
     }
 }

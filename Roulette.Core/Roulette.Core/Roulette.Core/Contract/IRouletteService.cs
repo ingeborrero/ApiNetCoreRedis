@@ -1,4 +1,5 @@
-﻿using Roulette.Core.Entity.Entities;
+﻿using Roulette.Core.Entity.DTO;
+using Roulette.Core.Entity.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,6 +10,8 @@ namespace Roulette.Core.Contract
     {
         Int64 CreateRoulette(string name);
         bool OpenRoulette(Int64 id);
+        bool CreateBet(BetRequest betRequest);
+        List<Bet> GetBets();
         List<RouletteEnt> GetRoulettes();
     }
 }

@@ -13,3 +13,4 @@ C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roule
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.AssemblyInfo.cs
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.dll
 C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.pdb
+C:\JorgeBorrero\Personal\Masivian\APInetCore\ApiNetCoreRedis\Roulette.Core\Roulette.Core.Entity\obj\Debug\netcoreapp3.1\Roulette.Core.Entity.csprojAssemblyReference.cache
