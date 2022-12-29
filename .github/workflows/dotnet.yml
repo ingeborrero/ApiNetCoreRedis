@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Show variables encironment-Test actions JorgeBorrero     
+    - name: Show variables environment-Test actions JorgeBorrero     
       run: echo $GITHUB_ACTION &&
            echo $GITHUB_EVENT_NAME &&
            echo $GITHUB_WORKFLOW &&
