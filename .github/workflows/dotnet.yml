@@ -1,0 +1,18 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: Environment variables Test Jorge
+
+on:
+  workflow_dispatch
+
+jobs:
+  show:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Show variables encironment-Test actions JorgeBorrero     
+      run: echo $GITHUB_ACTION &&
+           echo $GITHUB_EVENT_NAME &&
+           echo $GITHUB_WORKFLOW &&
+           echo $RUNNER_OS
